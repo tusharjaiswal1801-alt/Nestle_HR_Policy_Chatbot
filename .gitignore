@@ -1,0 +1,29 @@
+# Ignore everything by default so only the notebook, PDF, and a few essential repo files are tracked
+*
+
+# Keep only the project files that are needed for GitHub
+!Nestle_HR.ipynb
+!the_nestle_hr_policy_pdf_2012.pdf
+!.gitignore
+!.env.example
+!README.md
+!requirements.txt
+
+# Ignore common local junk
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Ignore large local folders
+faiss_hr_policy/
+faiss_index/
+sample_text/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
